@@ -1,103 +1,96 @@
-# PAI-SG Library | Physical AI Spider Grid
+# Statera Library
 
-**Knowledge Library and Structured Technical References for Physical AI**  
-**피지컬 AI 스파이더 그리드 지식 라이브러리 및 구조화된 기술 참조 체계**
+**Structured Knowledge, Technical Manuscripts, and Publications for AI, Robotics, and Physical AI**
 
-> **Organization:** [PAI-SG-Library](https://github.com/PAI-SG-Library)  
-> **Corresponding Statera organization:** [Statera-Library](https://github.com/Statera-Library)  
-> **Ecosystem:** Physical AI Spider Grid (PAI-SG)
-
----
+[English](#english) | [한국어](#한국어)
 
 ## English
 
-### Mission
+### About Statera Library
 
-PAI-SG Library organizes and presents the technical knowledge required to understand, implement, evaluate, and integrate Physical AI systems. It connects foundational artificial intelligence, robotics, embodied intelligence, perception, control, autonomous navigation, world models, and engineering disciplines through discoverable and traceable technical references.
+Statera Library is the knowledge and publication working group of the Statera ecosystem. It organizes, develops, maintains, and publishes structured technical knowledge spanning artificial intelligence, machine learning, robotics, Physical AI, and the engineering disciplines needed to design, implement, and evaluate intelligent physical systems.
 
-Its mission is to make knowledge usable across the Physical AI Spider Grid: not only as documents to read, but also as a structured foundation for implementation, research, engineering collaboration, and interoperable system design.
+The Library serves as a **source of truth for approved public technical manuscripts and knowledge assets**. Its work emphasizes clear explanations, consistent organization, traceable revisions, and long-term accessibility. It provides the conceptual and educational foundations on which implementations, experiments, and shared technical specifications can build.
+
+The Library documents **what is known and how that knowledge is organized**. Executable implementations and reproducibility tests are primarily the responsibility of Workshop; exploratory hypotheses and experiments belong to Research; common schemas and normative specifications belong to Standards.
 
 ### Scope and Responsibilities
 
-**Structured knowledge.** Maintain coherent references for concepts, algorithms, engineering methods, system architectures, datasets, evaluation practices, and application domains. Preserve meaningful relationships between theory, implementation, and physical-system requirements.
+- Develop and maintain structured books, chapters, tutorials, and technical reference materials.
+- Cover foundations and applications of AI, deep learning, computer vision, robotics, autonomous systems, embodied intelligence, and Physical AI.
+- Explain algorithms, mathematical foundations, architectures, engineering methods, and evaluation approaches in a coherent knowledge framework.
+- Maintain consistent naming, version history, cross-references, and editorial quality across published materials.
+- Connect relevant knowledge to Workshop implementations, Research evidence, and Standards specifications without conflating their responsibilities.
+- Distinguish approved public publications from private drafts, internal engineering records, and restricted source material.
 
-**Technical publications.** Present curated educational and technical material covering machine learning, computer vision, perception and tracking, robotics software, mobile robots, manipulators, humanoids, autonomous systems, sensor integration, and Physical AI.
+### Publications and Repository Structure
 
-**Traceability and provenance.** Identify the origin, version, and status of technical content where available. Distinguish source material, interpretations, experimental evidence, and approved specifications. A publication is not automatically a validated implementation or an adopted standard.
+The [Statera-Library GitHub organization](https://github.com/Statera-Library) hosts public repositories for technical manuscripts and knowledge resources. Individual repositories may represent books, volumes, or other organized publication units. Each repository's own README, license, and revision history should be consulted for its specific scope and permitted use.
 
-**Connections to the wider grid.** Link documented concepts to runnable work in Workshop, research questions in Research, specifications in Standards, and contributor activity in Guild.
+Statera Library is the primary management location for its Statera publications. The related PAI-SG organization can present approved public materials under the Physical AI Spider Grid identity, subject to separate publication and synchronization policies.
 
-### Relationship to Statera-Library
+### Working Group Network
 
-[Statera-Library](https://github.com/Statera-Library) is the corresponding Statera knowledge organization and the source-of-truth layer for its maintained source publications. PAI-SG Library provides the Physical AI Spider Grid-facing organization and navigation of approved public material. Where repositories are mirrored, the Statera source remains authoritative unless a specific governance decision establishes otherwise.
+The six Statera Working Groups perform complementary functions rather than forming a strict technical hierarchy.
 
-Public-facing documentation must remain separate from restricted internal architecture, unpublished evidence, supplier information, and other non-public material. The presence of a topic in this library does not imply that every underlying engineering record is public.
-
-### How the Six Working Groups Connect
-
-The six Working Groups have complementary responsibilities:
-
-| Working Group | Responsibility | GitHub |
+| Working Group | Role | GitHub |
 | --- | --- | --- |
-| **Foundation** | Mission, principles, identity, and governance of the ecosystem | [PAI-SG-Foundation](https://github.com/PAI-SG-Foundation) |
-| **Library** | Structured technical knowledge, publications, and references | [PAI-SG-Library](https://github.com/PAI-SG-Library) |
-| **Workshop** | Reproducible algorithms, software implementations, and tests | [PAI-SG-Workshop](https://github.com/PAI-SG-Workshop) |
-| **Guild** | Contributor collaboration, domain roles, and evidence-backed contribution records | [PAI-SG-Guild](https://github.com/PAI-SG-Guild) |
-| **Research** | Research hypotheses, experiments, benchmarking, and technical validation | [PAI-SG-Research](https://github.com/PAI-SG-Research) |
-| **Standards** | Shared terminology, graph specifications, schemas, interfaces, and interoperability rules | [PAI-SG-Standards](https://github.com/PAI-SG-Standards) |
+| **Foundation** | Mission, founding principles, and governance | [Statera-Foundation](https://github.com/Statera-Foundation) |
+| **Library** (this group) | Structured technical knowledge, manuscripts, and publication | [Statera-Library](https://github.com/Statera-Library) |
+| **Workshop** | Executable implementations, reproducible code, and algorithm testing | [Statera-Workshop](https://github.com/Statera-Workshop) |
+| **Guild** | Contributor coordination, roles, and evidence-based contribution records | [Statera-Guild](https://github.com/Statera-Guild) |
+| **Research** | Technical hypotheses, experimental studies, and validation | [Statera-Research](https://github.com/Statera-Research) |
+| **Standards** | Shared specifications, schemas, interfaces, and interoperability | [Statera-Standards](https://github.com/Statera-Standards) |
 
-The corresponding Statera organizations are [Foundation](https://github.com/Statera-Foundation), [Library](https://github.com/Statera-Library), [Workshop](https://github.com/Statera-Workshop), [Guild](https://github.com/Statera-Guild), [Research](https://github.com/Statera-Research), and [Standards](https://github.com/Statera-Standards).
+### Related PAI-SG Organization
 
-### Working Principles
-
-Technical knowledge should be understandable, attributable, versioned where practical, and connected to reproducible evidence. The Library documents technical claims and references; Workshop validates executable implementations; Research investigates open questions; Standards governs adopted specifications. Contributors should respect repository licenses, third-party rights, publication approvals, and the distinction between public documentation and private engineering records.
-
----
+[PAI-SG-Library](https://github.com/PAI-SG-Library) is the corresponding organization in the **Physical AI Spider Grid (PAI-SG)** network. Statera and PAI-SG have related but distinct organizational identities. Publicly approved materials may be mirrored or adapted under a controlled publishing process; private or internal material is not automatically included.
 
 ## 한국어
 
-### 설립 목적
+### Statera Library 소개
 
-**PAI-SG Library**는 피지컬 AI(Physical AI) 시스템을 이해하고 구현하며 평가·통합하는 데 필요한 기술 지식을 체계적으로 구성하고 제공하는 조직입니다. 인공지능 기초, 로보틱스, 체화 지능(Embodied Intelligence), 인지(Perception), 제어(Control), 자율주행(Autonomous Navigation), 월드 모델(World Model) 및 관련 공학 지식을 서로 연결합니다.
+Statera Library는 Statera 생태계의 **기술 지식 및 출판(Technical Knowledge and Publication)** 담당 Working Group입니다. 인공지능(Artificial Intelligence), 기계학습(Machine Learning), 로보틱스(Robotics), 피지컬 AI(Physical AI), 지능형 물리 시스템의 설계·구현·평가에 필요한 공학 지식을 체계적으로 정리하고, 기술 원고와 참고 자료를 개발·관리·출판합니다.
 
-Library의 목적은 기술 문서를 단순히 보관하는 데 그치지 않고, 해당 지식을 실제 구현, 연구, 엔지니어링 협업 및 시스템 간 상호운용성(Interoperability)의 기반으로 활용할 수 있도록 구조화하는 것입니다.
+Library는 **공개 승인을 받은 기술 원고와 지식 자산의 원본 관리 체계(Source of Truth)** 역할을 합니다. 명확한 기술 설명, 일관된 목차 및 분류 구조, 변경 이력 추적, 장기적인 접근성을 중시하며, 소프트웨어 구현과 연구, 기술 표준의 기반이 되는 개념적·교육적 지식을 제공합니다.
 
-### 주요 역할과 책임
+Library가 담당하는 핵심 질문은 **무엇을 알고 있으며, 그 지식을 어떻게 체계적으로 축적하고 전달하는가**입니다. 실행 가능한 알고리즘과 재현 시험은 주로 Workshop, 새로운 가설과 실험은 Research, 공통 스키마와 규범적 기술 규격은 Standards의 책임으로 구분합니다.
 
-**지식 구조화(Structured Knowledge).** 개념, 알고리즘, 공학 방법론, 시스템 아키텍처, 데이터셋, 평가 절차 및 응용 분야에 관한 기술 참조 자료를 정리하고, 이론과 구현 및 물리 시스템 요구사항 사이의 관계를 관리합니다.
+### 주요 역할과 관리 범위
 
-**기술 원고와 출판(Technical Publications).** 머신러닝, 컴퓨터 비전, 객체 감지와 추적, 로봇 소프트웨어, 이동 로봇, 매니퓰레이터, 휴머노이드, 자율 시스템, 센서 융합 및 피지컬 AI에 관한 교육·기술 자료를 제공합니다.
+- 체계적인 기술 서적, 장(Chapter), 튜토리얼 및 기술 참고 문서 개발과 유지관리
+- AI, 딥러닝(Deep Learning), 컴퓨터 비전(Computer Vision), 로보틱스, 자율 시스템, 체화 지능(Embodied Intelligence), Physical AI의 기초와 응용 지식 정리
+- 알고리즘, 수학적 기초, 시스템 아키텍처, 공학적 개발 방법 및 평가 방법의 일관된 설명
+- 출판 자료의 명명 규칙, 버전 이력, 문서 간 참조 및 편집 품질 관리
+- Workshop의 구현물, Research의 실험 근거, Standards의 규격과 지식 자료의 상호 연결
+- 공개 승인된 출판 자료와 비공개 초안, 내부 공학 기록 및 제한 자료의 명확한 구분
 
-**추적 가능성과 출처 관리(Traceability and Provenance).** 가능한 범위에서 자료의 출처, 버전, 상태를 구분합니다. 문헌에 수록된 기술이 곧바로 구현 검증을 통과했거나 공식 표준으로 채택되었다는 의미는 아닙니다.
+### 출판 자료와 Repository 구조
 
-**조직 간 연결.** Library의 기술 개념을 Workshop의 실행 코드, Research의 연구 과제, Standards의 공통 규격, Guild의 기여 활동과 연결합니다.
+[Statera-Library GitHub Organization](https://github.com/Statera-Library)은 기술 원고와 지식 자료를 공개 Repository로 관리합니다. 개별 Repository는 서적, 권(Volume) 또는 기타 출판 단위를 나타낼 수 있으며, 구체적인 내용과 이용 조건은 각 Repository의 README, 라이선스 및 변경 이력을 기준으로 확인해야 합니다.
 
-### Statera-Library와의 관계
+Statera Library는 Statera 출판 자산의 기본 관리 위치입니다. 연계된 PAI-SG 조직은 별도의 공개 및 동기화 정책에 따라 승인된 자료를 Physical AI Spider Grid의 정체성으로 제공할 수 있습니다.
 
-[Statera-Library](https://github.com/Statera-Library)는 대응하는 Statera 지식 관리 조직이며, 해당 조직이 관리하는 원본 출판 자료의 단일 진실 공급원(SSOT, Single Source of Truth)입니다. PAI-SG Library는 공개 승인된 자료를 Physical AI Spider Grid 관점에서 조직하고 연결하는 역할을 담당합니다. 저장소가 복제된 경우에도 별도의 거버넌스 결정이 없는 한 Statera 원본이 기준입니다.
+### 6개 Working Group 소개 및 연결
 
-공개 자료와 비공개 내부 설계, 미공개 실험 증거, 공급업체 정보 및 기타 제한 자료는 구분하여 관리합니다. Library에 특정 기술 주제가 공개되어 있다고 해서 관련 내부 엔지니어링 자료까지 모두 공개되는 것은 아닙니다.
-
-### 6개 Working Group의 역할과 연결
+6개 Working Group은 엄격한 기술적 상하 조직이 아니라 상호 보완적인 역할을 담당합니다.
 
 | Working Group | 주요 역할 | GitHub |
 | --- | --- | --- |
-| **Foundation** | 생태계의 목적, 기본 원칙, 정체성 및 거버넌스 | [PAI-SG-Foundation](https://github.com/PAI-SG-Foundation) |
-| **Library** | 구조화된 기술 지식, 원고, 출판 및 참조 자료 | [PAI-SG-Library](https://github.com/PAI-SG-Library) |
-| **Workshop** | 재현 가능한 알고리즘, 소프트웨어 구현 및 시험 | [PAI-SG-Workshop](https://github.com/PAI-SG-Workshop) |
-| **Guild** | 참여자 협업, 도메인별 역할 및 증거 기반 기여 기록 | [PAI-SG-Guild](https://github.com/PAI-SG-Guild) |
-| **Research** | 연구 가설, 실험, 벤치마크 및 기술 검증 | [PAI-SG-Research](https://github.com/PAI-SG-Research) |
-| **Standards** | 공통 용어, 지식 그래프 규격, 스키마, 인터페이스 및 상호운용성 | [PAI-SG-Standards](https://github.com/PAI-SG-Standards) |
+| **Foundation** | 미션, 설립 원칙 및 거버넌스 | [Statera-Foundation](https://github.com/Statera-Foundation) |
+| **Library** (현재 조직) | 체계적인 기술 지식, 원고 및 출판 | [Statera-Library](https://github.com/Statera-Library) |
+| **Workshop** | 실행 가능한 구현, 재현 가능한 코드 및 알고리즘 시험 | [Statera-Workshop](https://github.com/Statera-Workshop) |
+| **Guild** | 기여자 협업, 역할 및 증거 기반 기여 기록 | [Statera-Guild](https://github.com/Statera-Guild) |
+| **Research** | 기술 가설, 실험 연구 및 검증 | [Statera-Research](https://github.com/Statera-Research) |
+| **Standards** | 공통 기술 규격, 스키마, 인터페이스 및 상호운용성 | [Statera-Standards](https://github.com/Statera-Standards) |
 
-대응하는 Statera 조직은 [Foundation](https://github.com/Statera-Foundation), [Library](https://github.com/Statera-Library), [Workshop](https://github.com/Statera-Workshop), [Guild](https://github.com/Statera-Guild), [Research](https://github.com/Statera-Research), [Standards](https://github.com/Statera-Standards)입니다.
+### 연계 PAI-SG Organization
 
-### 운영 원칙
-
-기술 지식은 이해 가능하고 출처를 확인할 수 있어야 하며, 가능한 경우 버전과 재현 가능한 증거를 연결해야 합니다. Library는 지식과 참조 자료를 관리하고, Workshop은 실행 구현을 검증하며, Research는 새로운 연구 문제를 탐구하고, Standards는 채택된 공통 규격을 관리합니다. 모든 공개 활동은 저장소 라이선스, 제3자 권리, 공개 승인 절차 및 비공개 자료 보호 원칙을 준수해야 합니다.
+[PAI-SG-Library](https://github.com/PAI-SG-Library)는 **Physical AI Spider Grid(PAI-SG)** 네트워크에서 대응하는 조직입니다. Statera와 PAI-SG는 연계되어 있지만 조직의 정체성과 자료 게시 정책을 구분합니다. 공개 승인을 받은 자료만 관리된 절차에 따라 복제하거나 재구성하며, 비공개 내부 자료는 자동 공개 대상이 아닙니다.
 
 ---
 
-## Contact | 연락처
+## Contact
 
 **Richard Minsoo Go**  
 Head of AI, Hills Robotics  
